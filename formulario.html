@@ -23,15 +23,25 @@
                         Descuento: <input name="descuento" value="15%" siz3="5" readonly><br>
                         Archivo: <input type="file" name="fichero"
                                  accept="application/x-zip-compressed"><br>
-                        <label for="categoria">categoria</label>
                             <div>
+                              <label for="categoria">categoria</label>
                                 <select name="categoria" id="categoria" multiple>
+                                    <optgroup label="generos">
                                     <option value="terror">terror</option>
                                     <option value="romance">romance</option>
                                     <option value="comedio">comedia</opttion>
                                     <option value="si-fi">ciencia ficción</option>
                                     <option value="suspense">suspense</option>
                                     <option value="drama">drama</option>
+                                    </optgroup>
+                                    <optgroup label="Año">
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</opttion>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    </optgroup>
                                 </select>
                             </div>
                                 <input type="hidden" name="fecha" value=""><br>
