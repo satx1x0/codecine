@@ -5,6 +5,44 @@
     </head>
     <body>
         
+        <content>
+                <div align="left">
+                <form action="https://satx1x0.github.io/codecine/registro.html" enctype="multipart/form-data" method="get|post">
+                    Usuario:<input type="text" name="usuario value="user"><br>
+                    Correo electronico<input type="text" id="email" size=20 maxlength=40><br>
+                    Contraseña:<input type="password" name="pass"><br>
+                    Socio:<input type="checkbox" name="socio" checked><br>
+                    Sexo: <input type="radio" name="genero" value="m"> masculino
+                    <input type="radio" name="genero" value"f"> Femenino<br>
+                    Dirección: <input type="text" id="dire" size=40><br>
+                    Ciudad: <input type="text" id="ciudad" size=20><br>
+                    Codigo Postal: <input type="text" id="cp" size=5><br>
+                    Descuento: <input name="descuento" value="15%" siz3="5" readonly><br>
+                    Archivo: <input type="file" name="fichero"
+                                 accept="application/x-zip-compressed"><br>
+                    <label for="categoria">categoria</label>
+                    <div>
+                            <select name="categoria" id="categoria" multiple>
+                                <option value="terror">terror</option>
+                                <option value="romance">romance</option>
+                                <option value="comedio">comedia</opttion>
+                                <option value="si-fi">ciencia ficción</option>
+                                <option value="suspense">suspense</option>
+                                <option value="drama">drama</option>
+                            </select>
+                    </div>
+                                <input type="hidden" name="fecha" value=""><br>
+                                <input type="submit" value="enviar">
+                                <input type="reset" value="reset">
+                                <input type="button" value="salir"
+                                onlclick="window.close();">
+                 </form>
+                </div>
+         </content>
+         <footer>
+             
+         </footer>
+        
     </body>
     
 </html>
