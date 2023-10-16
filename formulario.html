@@ -7,10 +7,17 @@
             <header>
             <h1>Registrate</h1>
             </header>
-                <content>
-                    <div>
+                <table width="1000">
+                    <p>
                         <form action="https://satx1x0.github.io/codecine/registro.html" enctype="multipart/form-data" method="get|post">
-                        Usuario:<input type="text" name="usuario value="user"><br>
+                            <fieldset>
+                                <legend>Formulario de registro</legend>
+                            <table width=700 cellpadding=5><tr>
+                            <tr><td><strong> ->Identificación </strong></td></tr>
+                                <td><fieldset>
+                                    <legend>Datos del usuario</legend>
+                             <label for="user">usuario</label>       
+                             <input type="text" name="usuario value="user"><br>
                         Correo electronico<input type="text" id="email" size=20 maxlength=40><br>
                         Contraseña:<input type="password" name="pass"><br>
                         Socio:<input type="checkbox" name="socio" checked><br>
@@ -22,7 +29,6 @@
                         Descuento: <input name="descuento" value="15%" siz3="5" readonly><br>
                         Archivo: <input type="file" name="fichero"
                                  accept="application/x-zip-compressed"><br>
-                            <div>
                               <label for="categoria">categoria</label><br>
                                 <select name="Categoria" id="Categoría" multiple>
                                     <optgroup label="generos">
@@ -42,23 +48,17 @@
                                     <option value="2018">2018</option>
                                     </optgroup>
                                 </select>
-                            </div>
                                 <input type="hidden" name="fecha" value=""><br>
                                 <input type="submit" value="enviar">
                                 <input type="reset" value="reset">
                                 <input type="button" value="salir"
                                 onlclick="window.close();">
-                         </form><br>
-                    </div>
-                 </content>
-             <footer>
-                 <div>
-                     <label for="comentario">Comentario</label><br>
-                     <textarea id="comentario" name="comentario" rows="4" cols="50">
-                     Escriba aquí sus comentarios    
-                     </textarea>
-                 </div>    
-             </footer>
+                                         <label for="comentario">Comentario</label><br>
+                                         <textarea id="comentario" name="comentario" rows="4" cols="50">
+                                         Escriba aquí sus comentarios    
+                                         </textarea>    
+                     </p>
+                </form>
+           </table>
     </body>
-    
 </html>
