@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--Índice Sergio Triviño-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Índice</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    #indice {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #932b2b;
+      padding: 10px;
+      border-bottom: 1px solid #000000;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    #indice ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    #indice ul li {
+      margin-right: 10px;
+    }
+
+    #indice ul li a {
+      text-decoration: none;
+      color: rgb(252, 238, 238);
+    }
+
+    #contenido {
+      padding-top: 40px; 
+    }
+    h1 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div id="indice">
+  <ul>
+    <li><a href="#seccion1">Sección 1</a></li>
+    <li><a href="#seccion2">Sección 2</a></li>
+    <li><a href="#seccion3">Sección 3</a></li>
+  </ul>
+</div>
+
+<div id="contenido">
+  <h1 id="seccion1">1</h1>
+  <p>Primero apartado</p>
+  <p><a href="#inicio">Volver al inicio</a></p>
+  <hr>
+
+  <h1 id="seccion2">2</h1>
+  <p>Segundo apartado</p>
+  <p><a href="#inicio">Volver al inicio</a></p>
+  <hr>
+
+  <h1 id="seccion3">3</h1>
+  <p>Tercer apartado</p>
+  <p><a href="#inicio">Volver al inicio</a></p>
+  <hr>
+</div>
+
+</body>
+</html>
+
