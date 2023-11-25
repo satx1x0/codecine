@@ -1,0 +1,30 @@
+body{
+    width:600px;
+    font-family:Calibri;
+}
+
+h2{
+    text-align:center;
+    font-family:Verdana;
+}
+
+div#dersonal ul li{
+    list-style: none;
+}
+
+div#dersonal img{
+    width:100px;
+    position:relative;
+    float:right;
+    bottom:10px;
+
+}
+
+div#formacion ul li, div#eboral ul li{
+    list-style: square;
+    padding:3px 0px 3px 0px;
+}
+
+div#idiomas ul li ul li#primer{
+    list-style: none;
+}
