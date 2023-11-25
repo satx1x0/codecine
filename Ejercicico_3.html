@@ -1,0 +1,125 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Ejercicio 3 - Facturacion</title>
+        <meta charset="utf-8">
+        <link href="/css ejercicio3.css" rel="StyleSheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <img src="/imagen/Captura.PNG">
+            <address>
+                Avanzaviaja<br>
+                CIF: 12345678-vf<br>
+                C/Viajerps s/n<br>
+                Isla del Panda<br>
+                Panda<br>
+                España
+            </address>
+            <div>
+                <div id="titulo">FACTURA</div>
+                <table>
+                    <tr>
+                        <td>Número:</td>
+                        <td class="cuadrado">1</td>
+                     </tr>
+                    <tr>
+                        <td>Fecha:</td>
+                        <td class="cuadrado">29/04/2008</td>
+                    </tr>
+                </table>
+            </div>
+        </header>
+        <div id="container">
+            <section id="content">
+                <article class="cajulo" id="clatos">
+                    <h2>Datos del Cliente</h2>
+                    <div>
+                        <table>
+                            <tr>
+                                <td>Cliente:</td>
+                                <td class="cuadrado">Tío Sam</td>
+                                <td>CIF:</td>
+                                <td class="cuadrado">94-6666666</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td>Dirección:</td>
+                                <td class="cuadrado">Pennsylvania Avenue, 1600</td>
+                                <td>Provincia:</td>
+                                <td class="cuadrado">Washington</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td>País:</td>
+                                <td class="cuadrado">Estados Unidos</td>
+                            </tr>
+                        </table>
+                    </div>
+                </article>
+                <article class="cajulo" id="factura">
+                    <h2>Líneas de factura</h2>
+                    <div>
+                        <table id="articulos">
+                            <tr id="titulos">
+                                <td id="cantidad">Cantidad</td>
+                                <td id="articulo">Artículo</td>
+                                <td id="precio">Precio</td>
+                                <td id="subtotal">Subtotal</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>AR001 - Armadura de oro reluciente</td>
+                                <td class="dinero">350.000 $</td>
+                                <td class="dinero">350.000 $</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>ES002 - Escudo antiproyectiles</td>
+                                <td class="dinero">50.000 $</td>
+                                <td class="dinero">150.000 $</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <table id="precio">
+                            <tr>
+                                <td>Base Imponible</td>
+                                <td class="dinero">500.000 $</td>
+                            </tr>
+                            <tr>
+                                <td>Descuento</td>
+                                <td class="dinero">0 $</td>
+                            </tr>
+                            <tr>
+                                <td>IVA 20%</td>
+                                <td class="dinero">100.000 $</td>
+                            </tr>
+                            <tr>
+                                <td>Total Neto</td>
+                                <td id="dinero">600.000 $</td>
+                            </tr>
+                        </table>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <footer>
+            <h6>Forma de pago y Datos Bancarios</h6>
+            <form action="" method="post" enctype="text/plain">
+                <div id="tpago">
+                    Pago al contado: <input type="checkbox" name="contado" value="Y"> <br>
+                    Pago domiciliado: <input type="checkbox" name="domiciliado" value="Y" checked> <br>
+                    Pago con tarjeta: <input type="checkbox" name="tarjeta" value="Y">
+                </div>
+                <div id="banco">
+                    <label>Entidad:</label> <input type="text" name="entidad"><br>
+                    <label>Nº de Cuenta:</label> <input type="text" name="IBAN">
+                </div>
+                <p></p>
+            </form>
+        </footer>
+    </body>
+</html>

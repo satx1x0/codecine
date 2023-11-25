@@ -1,0 +1,89 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Ejercicio 4</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+body{
+    background-color:rgb(221, 221, 221)595;
+}
+
+h2{
+    font-weight:bolder;
+}
+
+ul{
+    position: absolute;
+    border: #f0e9e9;
+    width: 100%;
+}
+
+ul li{
+    background-color:rgba(255, 255, 255, 0.712)
+    color: #222;
+    list-style: none;
+    float: left;
+    align-items: center;
+    padding:5px 15px 5px 15px;
+}
+
+ul li{
+    clear:both;
+    display:none;
+}
+
+ul li#menu1:hover > ul li, ul li ul li:hover{
+    clear:both;
+    display:block;
+    position:relative;
+    right: 56px;
+    top: 4px;
+    width:168px;
+}
+
+ul li ul li a{
+    display:block;
+    text-decoration:none;
+    color:#070404;
+    padding:5px 0px 5px 10px;
+}
+
+ul li ul li a:hover{
+    background-color:rgb(172, 0, 219);
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+}
+        </style>
+    </head>
+    <body>
+        <h2>MENU DESPLEGABLE</h2>
+        <ul>
+            <li>
+                Inicio
+            </li>
+            <li id="menu1">
+                ASIR
+                <ul>
+                    <li>
+                        <a href="#">Bases de Datos</a>
+                    </li>
+                    <li>
+                        <a href="#">Sistemas Operativos</a>
+                    </li>
+                    <li>
+                        <a href="#">Lenguajes de marcas</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                DAM
+            </li>
+            <li>
+                DAW
+            </li>
+            <li>
+                SMR
+            </li>
+        </ul>
+    </body>
+</html>

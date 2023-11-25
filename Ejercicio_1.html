@@ -1,69 +1,44 @@
 <!doctype HTML>
-<!--Sergio Triviño Taborda-->
 <html>
-    <head>
-        <title>Ejercicio 1</title>
-            <meta charset="utf-8">
-                <style type="text/css">
-                    body{
-                        border:2px solid black;
-                        padding:5px 5px 0px 5px;
-                    }
-
-                    h1{
-                        text-align:center;
-                        text-decoration:underline;
-                        font-size:16pt;
-                    }
-
-                    h2{
-                        text-align:right;
-                        font-size:20pt;
-                    }
-
-                    p{
-                        text-align:justified;
-                        text-indent:30px;
-                    }
-                </style>
-    </head>
-    <body>
-        <h1>Programación orientada a objetos</h1>
-            <p>
-                La <b>Programación Orientada a Objetos</b> (POO, o en ingles OOP, Object Oriented Programming) es un <u>paradigma de programacion</u> que pretende desarrollar aplicaciones basandose en el comportamiento de los objetos del mundo real.
-            </p>
-        <h2>Conceptos fundamentales</h2>
-            <ul>
-                <li>
-                    <b>Clase: </b>modelo, molde o patron a partir del cual se crearan instancias concretas (objetos). Al crearse se definiran su nombre, sus atributos, sus metodos y si es construida a partir de otra clase ya existente (herencia).
-                </li>
-                <li>
-                    <b>Objeto: </b>instancia concreta de una clase. Tendra un estado concreto y ocupara un espacio en memoria.
-                </li>
-                <li>
-                    <b>Atributo: </b>caracteristica de un objeto (o clase). Los atributos de un objeto se definen al construir la clase de la que luego se instanciara el objeto. Tambien se denomina en ocasiones <i>propiedad</i>.
-                </li>
-                <li>
-                    <b>Metodo: </b>funcionalidad asociada a un objeto (o clase) y que se definen al construir la clase de la que luego se instanciara el objeto.
-                </li>
-            </ul>
-        <h2>Java: por ejemplo</h2>
-            <p>
-                El lenguaje de programacion <u>Java</u> es un exponente de la programacion orientada a objetos. Un pequeño ejemplo de un codigo en Java seria:
-            </p>
-            <p>
-                <pre style="width:300px;float:left;margin:20px 20px 0px 30px;">
-                        public class Circulo{
-                            Punto centro;
-                            int radio;
-                            Circulo(Punto centro, int radio) {
-                                this.centro= centro;
-                                this.radio= radio;
-                            }
-                        }
-                </pre>
-                <img src="imagenes/logo.png" width="120" style="float:right;border:2px solid black;margin:20px 5px 0px 20px;">
-                <br style="clear:both;">
-            </p>
-    </body>
+  <head>
+	<title>Artículo</title>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html">
+	<link rel="stylesheet" href="/css ejercicio1.css" type="text/css">
+  </head>
+  <body>
+    <div id="articulo">
+	  <div id="titulo">Sistema Operativo Android&trade;</div>
+	  <div id="datos">Ana Mª Suárez      León      15/06/2012 <a href="#"><img src="/FOTOS EJERCICIO 1/comentario.png" alt="comentario"></a>
+	  </div>
+	  <div id="foto1">
+	    <img src="/FOTOS EJERCICIO 1/android.png" alt="android">
+	  </div>
+	  <div id="texto">
+	    <p>Se trata de un sistema operativo basado en <a href="http://linux.org">Linux</a> de código abierto y pensado para dispositivos móviles.<br>
+	    Fué desarrollado por la OHA (Open Handset Alliance) formada por un conjunto de empresas como <a href="http://google.org">Google</a>, Ebay, Intel, Nvidia, Mottorola,
+	    Samsung o Telefónica entre otras. Sale a luz en Noviembre de 2007. Desde entonces es líder en ventas con cada vez más diferencia sobre sus competidores.</p>
+	    <div id="foto2">
+		  <img src="/FOTOS EJERCICIO 1/xml.png" alt="xml">
+		</div>
+	    <p>El sistema es ligero pues solo contiene 12 Millones de LCD (líneas de código) escritas en diferentes lenguajes como <a href="http://xml.org">XML</a>, C, Java y C++.
+	    Al tratarse de código abierto, la comunidad de desarrolladores es muy grande, por ello no es de extrañar el número tan elevado de 
+	    aplicaciones del que dispone, en torno al medio millón. Algunas de las cuales son:</p>
+	  
+	    <ul>
+		  <li>Audio: <span class="apps">Google Music</span> para escuchar música, <span class="apps">TuneIn</span> para radio, <span class="apps">Speaktoit</span> para reconocimiento de voz</li>
+		  <li>Libros: Lectores de archivos <span class="apps">Kindle, Aldiko</span></li>
+		  <li>Comunicación: <span class="apps">Skype, Viber, WhatsApp, eBudy</span></li>
+		  <li>Juegos: <span class="apps">Angry Birds</span></li>
+		  <li>Redes sociales: <span class="apps">FaceBook, Messenger, LinkedIn, Twitter</span></li>
+		  <li>Imagen: <span class="apps">PicsArt</span> para edición de imagen, <span class="apps">Instagram</span> para compartirlas</li>
+		  <li>Televisión: <span class="apps">TDT Android</span> para ver tv online</li>
+		  <li>Widgets: <span class="apps">Widgetsoid</span> permite crear widgets</li>
+        </ul>
+	  </div>
+	  <div id="social">
+		<img src="/FOTOS EJERCICIO 1/social.png" width="50%">
+	  </div>
+	</div>
+  </body>
 </html>
